@@ -112,7 +112,7 @@
     Created:     2017-03-27
     Updated:     2025-09-26
 	
-	Contributors: @CodyMathis123, @JamesMcwatty
+	Contributors: @CodyMathis123, @JamesMcwatty @EdenNelson
     
     Version history:
     1.0.0 - (2017-03-27) - Script created
@@ -210,6 +210,7 @@
 	4.2.2 - (2023-06-23) - Fixed Windows 10 22H2 missing switch value.
  	4.2.3 - (2024-02-06) - Added support for Windows 11 23H2
   	4.2.4 - (2025-01-15) - Added support for Windows 11 24H2
+	4.2.5 - (2025-01-15) - Added support for Windows 11 25H2, added Support for NUC devices from Intel/ASUS w/ ByteSpeed manufacturer. Added basica matching for manufacturer not explicitly supported.
 #>
 [CmdletBinding(SupportsShouldProcess = $true, DefaultParameterSetName = "BareMetal")]
 param(
